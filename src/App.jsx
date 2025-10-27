@@ -5,8 +5,8 @@ function App() {
   return (
     <>
     <Pros/>
-    <h1>hello jamiat</h1>
-    <p>mile linderBergh</p>
+    <h1>hello</h1>
+    <p>Hi</p>
     </>
   )
 }

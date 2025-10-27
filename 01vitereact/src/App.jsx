@@ -1,9 +1,13 @@
-
+import Pros from "./pros"
 
 function App() {
 
   return (
-    <h1>Hello World with vite | SH 'xandarassiance'.</h1>
+    <>
+    <Pros/>
+    <h1>hello</h1>
+    <p>Hi</p>
+    </>
   )
 }
 

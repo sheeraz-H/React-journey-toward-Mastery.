@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@layer utilities {
+  @keyframes fade-in {
+    from { opacity: 0; transform: scale(0.95); }
+    to { opacity: 1; transform: scale(1); }
+  }
+
+  .animate-fade-in {
+    animation: fade-in 0.4s ease-out;
+  }
+
+  /* neon button glow */
+  .neon-hover:hover {
+    box-shadow: 0 0 15px rgba(0, 255, 0, 0.6);
+  }
+
+  /* glass effect */
+  .glass {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    box-shadow: 0 0 20px rgba(0, 255, 100, 0.15);
+  }
+}
